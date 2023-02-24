@@ -2,13 +2,18 @@ body{
     margin: 0;
     font-family: 'Mulish', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+    min-height: 100vh;
+    
 }
 
 .page{
    
     width: 1000px;
     
-    margin: 65px auto 0;
+    margin: 0 auto 0;
+    padding-top: 65px;
 
 }
 
@@ -20,14 +25,26 @@ nav{
 
 }
 
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 h1{
     font-size: 49px;
     line-height: 56px;
     font-weight: normal;
     width: 490px;
-    
+}
+
+section p{
+    font-size: 14px;
+  line-height: 28px;
+    margin: 40px 0;
 
 }
+
 h1 span{
     color: #89C5CC;
     font-weight: bold;
@@ -35,10 +52,12 @@ h1 span{
 ul li a{
     text-decoration: none;
     color: #1F1534;
+    opacity: 0.5;
 }
  
 ul li a:hover {
     font-weight: bold;
+    opacity: 1;
    
 }
 
@@ -60,17 +79,47 @@ ul {
 }
 
 button{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
     background-color: #69B99D ;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
     box-shadow: 0 0 5px 0 #7D7987;
-    width: 150px ;
-    height: 50px;    
-    font-family: 'Open Sans', sans-serif;
+    width: 180px ;
+    height: 56px;    
+    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: white;
+   
+    padding: 14px 32px 15px;
+    gap: 10px;
+    cursor: pointer;
     
-    
+}
+
+button:hover{
+    background-color: #308e6d ;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 80px;
+}
+
+
+main img{
+    position: relative;
+    right: 0;
+}
+
+#balls{
+    position: fixed;
+   right: 0;
+   bottom: 0;
 }
