@@ -5,4 +5,8 @@ Baseado no modelo [**Figma.**](https://www.figma.com/file/JR9K1v9H4tgzZBxtmcW09w
 
 ![Capturar](https://user-images.githubusercontent.com/81052476/221067585-7848dab3-e8c0-4490-a922-a30beb04fdf3.PNG)
 
+Corrigindo Bugs
+
+![bug](https://user-images.githubusercontent.com/81052476/221271229-4650e856-a6cc-4976-b4af-088fff441f48.PNG)
+
 :seedling: HTML | CSS
